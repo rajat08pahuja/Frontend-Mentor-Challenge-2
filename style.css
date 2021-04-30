@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 20vh 10vw 20vh 10vw;
+}
+.main-container{
+    height: 60vh;
+    border-radius: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.car-box{
+    width: 33.33%;
+    padding: 5%;
+}
+.content-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icon-object{
+    height: 10%;
+    width: 100%;
+}
+.car-name{
+    height: 10%;
+    width: 100%;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+.car-desc{
+    height: 50%;
+    width: 100%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    overflow: auto;
+}
+.car-button{
+    height: 10%;
+    width: 100%;
+}
+.verydarkcyan{
+    background-color: hsl(179, 100%, 13%);
+}
+.darkcyan{
+    background-color: hsl(184, 100%, 22%);
+}
+.brightorange{
+    background-color: hsl(31, 77%, 52%);
+}
+.button-styling{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+    width: 150px;
+    max-width: 100%;
+    height: 30px;
+    overflow: auto;
+}
+.verydarkcyancolor{
+    color: hsl(179, 100%, 13%);
+}
+.darkcyancolor{
+    color: hsl(184, 100%, 22%);
+}
+.brightorangecolor{
+    color: hsl(31, 77%, 52%);
+}
+.left{
+    border-radius: 10px 0px 0px 10px;
+}
+.right{
+    border-radius: 0px 10px 10px 0px;
+}
